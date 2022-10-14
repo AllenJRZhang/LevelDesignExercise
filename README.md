@@ -16,19 +16,19 @@ Crouch - Left Ctrl
 
 ## 2.Gameplay
 
-## 2.1 General Layout
+### 2.1 General Layout
 
 The general layout of this level is a linear tunnel-like path, similar to that in platform
 runner games such as _Temple Run_ , but is pre-generated,rather than generated
 randomly at runtime. The linear level has a starting point and an end point.
 
-## 2.2 Player Goal
+### 2.2 Player Goal
 
 The goal of the player is to make it to the end of the level, step on a giant green button,
 without losing health to lower than or equal to zero, and avoid being caught by the
 _Pursuer_ enemy.
 
-## 2.3 Core Mechanism - Health System
+### 2.3 Core Mechanism - Health System
 
 The player has a health value, 100% at the beginning, and every type of damage taken
 by the player will deduct this value by 10% each time. When the health is lowered to
@@ -36,7 +36,7 @@ zero, the game is over and the player has to start over again. There is a type o
 collectibles called Health Packs which can increase the player health by 20% (up to
 100%) when picked up.
 
-## 2.4 Core Mechanism - Score System
+### 2.4 Core Mechanism - Score System
 
 The player also has a value called Score, initially being 0, will increase by 10 every time
 the player picks up coins, another type of collectibles. And if the player manages to kill
@@ -44,7 +44,7 @@ an enemy, the player character will be granted with 100 bonus points and 10% hea
 (up to 100%).
 
 
-## 2.5 Core Mechanism - Game Restart & Complete
+### 2.5 Core Mechanism - Game Restart & Complete
 
 Under certain circumstances it will be considered game over and a restart UI will be
 shown on the screen while the player character freezes. And the player can choose to
